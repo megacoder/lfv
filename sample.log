@@ -1,0 +1,459 @@
+10/19/06 17:44:22.802,[18963] <hb163c> "SrvOutputData" - Server started: /usr/tdrs/sw/exec/SrvOutputData, debug level=0, noDaemonFlag=0
+10/19/06 17:44:23.057,[18963] <hb163c> "SrvOutputData" - Main thread running as pid 18963
+10/19/06 17:44:23.057,[18963] <hb163c> "SrvOutputData" - *** Becoming a TCP server called 'OUTPUTDATA'
+10/19/06 17:44:23.060,[18963] <hb163c> "SrvOutputData" - OUTPUTDATA TCP server (pid=18963) listening on socket 3
+10/19/06 17:44:44.215,[18963] <hb163c> "SrvOutputData" - Accepted a request on fd 5; creating handler task.
+10/19/06 17:44:44.216,[18963] <hb163c> "SrvOutputData" - Sending job 3360 to host ''
+10/19/06 17:44:44.216,[18963] <hb163c> "SrvOutputData" - Sending job 3360 to host ''
+10/19/06 17:44:44.287,[18963] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP3360_D051013.h5'.
+10/19/06 17:44:44.287,[18963] <hb163c> "SrvOutputData" - Uploading BINARY file '/usr/tdrs/data/smith/nakano/jobs/3360/TDP3360_D051013.h5' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP3360_D051013.h5'.
+10/19/06 17:44:45.367,[18963] <hb163c> "SrvOutputData" - WARNING!! Old job dir '/usr/tdrs/data/smith/nakano/jobs/3360' not removed
+10/19/06 17:44:45.392,[18963] <hb163c> "SrvOutputData" - *** Output done message '3360' not sent to DRQ; status=0x00012601 (LibDRQ - Invalid request number being passed to the drq_job_complete Library routine .).
+10/19/06 17:47:38.107,[18963] <hb163c> "SrvOutputData" - Sending job 3368 to host 'FTCS'
+10/19/06 17:47:38.107,[18963] <hb163c> "SrvOutputData" - Sending job 3368 to host 'FTCS'
+10/19/06 17:47:38.178,[18963] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP3368_D051013.h5'.
+10/19/06 17:47:38.178,[18963] <hb163c> "SrvOutputData" - Uploading BINARY file '/usr/tdrs/data/smith/nakano/jobs/3368/TDP3368_D051013.h5' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP3368_D051013.h5'.
+10/19/06 17:47:39.194,[18963] <hb163c> "SrvOutputData" - WARNING!! Old job dir '/usr/tdrs/data/smith/nakano/jobs/3368' not removed
+10/19/06 17:47:39.214,[18963] <hb163c> "SrvOutputData" - *** Output done message '3368' not sent to DRQ; status=0x00012601 (LibDRQ - Invalid request number being passed to the drq_job_complete Library routine .).
+10/20/06 12:01:46.271,[16436] <hb163c> "SrvOutputData" - Server started: /usr/tdrs/sw/exec/SrvOutputData, debug level=0, noDaemonFlag=0
+10/20/06 12:01:46.508,[16436] <hb163c> "SrvOutputData" - Main thread running as pid 16436
+10/20/06 12:01:46.508,[16436] <hb163c> "SrvOutputData" - *** Becoming a TCP server called 'OUTPUTDATA'
+10/20/06 12:01:46.510,[16436] <hb163c> "SrvOutputData" - OUTPUTDATA TCP server (pid=16436) listening on socket 6
+10/20/06 12:02:12.424,[16436] <hb163c> "SrvOutputData" - Accepted a request on fd 4; creating handler task.
+10/20/06 12:02:12.424,[16436] <hb163c> "SrvOutputData" - Sending job 3360 to host ''
+10/20/06 12:02:12.424,[16436] <hb163c> "SrvOutputData" - Sending job 3360 to host ''
+10/20/06 12:02:12.424,[16436] <hb163c> "SrvOutputData" - Sending job 3360 to host 'FTCS'
+10/20/06 12:02:12.455,[16436] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP3360_D051013.txt'.
+10/20/06 12:02:12.456,[16436] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/3360/COMPLETE_TDP3360_D051013.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP3360_D051013.txt'.
+10/20/06 12:02:12.570,[16436] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP3360_D051013.txt' sent to 'FTCS'
+10/20/06 12:02:12.642,[16436] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP3360_D051013.h5'.
+10/20/06 12:02:12.642,[16436] <hb163c> "SrvOutputData" - Uploading BINARY file '/usr/tdrs/data/smith/nakano/jobs/3360/TDP3360_D051013.h5' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP3360_D051013.h5'.
+10/20/06 12:02:13.700,[16436] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP3360_D051013.txt'.
+10/20/06 12:02:13.700,[16436] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/3360/COMPLETE_TDP3360_D051013.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP3360_D051013.txt'.
+10/20/06 12:02:13.746,[16436] <hb163c> "SrvOutputData" - WARNING!! Old job dir '/usr/tdrs/data/smith/nakano/jobs/3360' not removed
+10/20/06 12:02:13.774,[16436] <hb163c> "SrvOutputData" - *** Output done message '3360' not sent to DRQ; status=0x00012601 (LibDRQ - Invalid request number being passed to the drq_job_complete Library routine .).
+10/20/06 12:03:20.359,[18175] <hb163c> "SrvOutputData" - Server started: /usr/tdrs/sw/exec/SrvOutputData, debug level=0, noDaemonFlag=0
+10/20/06 12:03:20.578,[18175] <hb163c> "SrvOutputData" - Main thread running as pid 18175
+10/20/06 12:03:20.578,[18175] <hb163c> "SrvOutputData" - *** Becoming a TCP server called 'OUTPUTDATA'
+10/20/06 12:03:20.581,[18175] <hb163c> "SrvOutputData" - OUTPUTDATA TCP server (pid=18175) listening on socket 6
+10/20/06 12:03:35.315,[18175] <hb163c> "SrvOutputData" - Accepted a request on fd 3; creating handler task.
+10/20/06 12:03:35.315,[18175] <hb163c> "SrvOutputData" - Sending job 3360 to host ''
+10/20/06 12:03:35.315,[18175] <hb163c> "SrvOutputData" - Sending job 3360 to host ''
+10/20/06 12:03:35.347,[18175] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP3360_D051013.txt'.
+10/20/06 12:03:35.347,[18175] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/3360/COMPLETE_TDP3360_D051013.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP3360_D051013.txt'.
+10/20/06 12:03:35.361,[18175] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP3360_D051013.txt' sent to 'FTCS'
+10/20/06 12:03:35.392,[18175] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/media_profile/COMPLETE_TDP3360_D051013.txt'.
+10/20/06 12:03:35.392,[18175] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/3360/COMPLETE_TDP3360_D051013.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/media_profile/COMPLETE_TDP3360_D051013.txt'.
+10/20/06 12:03:35.410,[18175] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP3360_D051013.txt' sent to 'MORK'
+10/20/06 12:03:35.482,[18175] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP3360_D051013.h5'.
+10/20/06 12:03:35.482,[18175] <hb163c> "SrvOutputData" - Uploading BINARY file '/usr/tdrs/data/smith/nakano/jobs/3360/TDP3360_D051013.h5' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP3360_D051013.h5'.
+10/20/06 12:03:36.498,[18175] <hb163c> "SrvOutputData" - WARNING!! Old job dir '/usr/tdrs/data/smith/nakano/jobs/3360' not removed
+10/20/06 12:03:36.523,[18175] <hb163c> "SrvOutputData" - *** Output done message '3360' not sent to DRQ; status=0x00012601 (LibDRQ - Invalid request number being passed to the drq_job_complete Library routine .).
+10/20/06 15:29:01.091,[16040] <hb163c> "SrvOutputData" - Server started: /usr/tdrs/sw/exec/SrvOutputData, debug level=0, noDaemonFlag=0
+10/20/06 15:29:01.305,[16040] <hb163c> "SrvOutputData" - Main thread running as pid 16040
+10/20/06 15:29:01.305,[16040] <hb163c> "SrvOutputData" - *** Becoming a TCP server called 'OUTPUTDATA'
+10/20/06 15:29:01.307,[16040] <hb163c> "SrvOutputData" - OUTPUTDATA TCP server (pid=16040) listening on socket 6
+10/20/06 15:35:07.356,[16040] <hb163c> "SrvOutputData" - Accepted a request on fd 3; creating handler task.
+10/20/06 15:35:07.356,[16040] <hb163c> "SrvOutputData" - Sending job 3360 to host ''
+10/20/06 15:35:07.356,[16040] <hb163c> "SrvOutputData" - Sending job 3360 to host ''
+10/20/06 15:35:07.387,[16040] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP3360_D051013.txt'.
+10/20/06 15:35:07.387,[16040] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/3360/COMPLETE_TDP3360_D051013.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP3360_D051013.txt'.
+10/20/06 15:35:07.401,[16040] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP3360_D051013.txt' sent to 'FTCS'
+10/20/06 15:35:07.432,[16040] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/media_profile/COMPLETE_TDP3360_D051013.txt'.
+10/20/06 15:35:07.433,[16040] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/3360/COMPLETE_TDP3360_D051013.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/media_profile/COMPLETE_TDP3360_D051013.txt'.
+10/20/06 15:35:07.463,[16040] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP3360_D051013.txt' sent to 'MINDY'
+10/20/06 15:35:07.502,[16040] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/media_profile/COMPLETE_TDP3360_D051013.txt'.
+10/20/06 15:35:07.502,[16040] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/3360/COMPLETE_TDP3360_D051013.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/media_profile/COMPLETE_TDP3360_D051013.txt'.
+10/20/06 15:35:07.516,[16040] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP3360_D051013.txt' sent to 'MORK'
+10/20/06 15:35:07.556,[16040] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/media_profile/COMPLETE_TDP3360_D051013.txt'.
+10/20/06 15:35:07.556,[16040] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/3360/COMPLETE_TDP3360_D051013.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/media_profile/COMPLETE_TDP3360_D051013.txt'.
+10/20/06 15:35:07.603,[16040] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP3360_D051013.txt' sent to 'TSS'
+10/20/06 15:35:07.635,[16040] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/COMPLETE_TDP3360_D051013.txt'.
+10/20/06 15:35:07.635,[16040] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/3360/COMPLETE_TDP3360_D051013.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/COMPLETE_TDP3360_D051013.txt'.
+10/20/06 15:35:07.656,[16040] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP3360_D051013.txt' sent to 'CVRR'
+10/20/06 15:35:07.733,[16040] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP3360_D051013.h5'.
+10/20/06 15:35:07.733,[16040] <hb163c> "SrvOutputData" - Uploading BINARY file '/usr/tdrs/data/smith/nakano/jobs/3360/TDP3360_D051013.h5' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP3360_D051013.h5'.
+10/20/06 15:35:08.744,[16040] <hb163c> "SrvOutputData" - WARNING!! Old job dir '/usr/tdrs/data/smith/nakano/jobs/3360' not removed
+10/20/06 15:35:08.765,[16040] <hb163c> "SrvOutputData" - *** Output done message '3360' not sent to DRQ; status=0x00012601 (LibDRQ - Invalid request number being passed to the drq_job_complete Library routine .).
+10/20/06 16:08:31.267,[ 9592] <hb163c> "SrvOutputData" - Server started: /usr/tdrs/sw/exec/SrvOutputData, debug level=0, noDaemonFlag=0
+10/20/06 16:08:31.490,[ 9592] <hb163c> "SrvOutputData" - Main thread running as pid 9592
+10/20/06 16:08:31.490,[ 9592] <hb163c> "SrvOutputData" - *** Becoming a TCP server called 'OUTPUTDATA'
+10/20/06 16:08:31.493,[ 9592] <hb163c> "SrvOutputData" - OUTPUTDATA TCP server (pid=9592) listening on socket 4
+10/22/06 10:51:46.271,[ 9592] <hb163c> "SrvOutputData" - Accepted a request on fd 5; creating handler task.
+10/22/06 10:51:46.287,[ 9592] <hb163c> "SrvOutputData" - New DAR media profile name: 'DAR01_DARTEST_019-12P.xml'.
+10/22/06 10:51:46.301,[ 9592] <hb163c> "SrvOutputData" - Pathname for 'DAR01_DARTEST_019-12P.xml' is '/usr/tdrs/data/smith/nakano/raid/raw/DARTEST/019-12/PRIMARY/FT36159/HSMFP01.xml'.
+10/22/06 10:51:46.331,[ 9592] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/DAR01_DARTEST_019-12P.xml'.
+10/22/06 10:51:46.331,[ 9592] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/raid/raw/DARTEST/019-12/PRIMARY/FT36159/HSMFP01.xml' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/DAR01_DARTEST_019-12P.xml'.
+10/22/06 10:51:46.454,[ 9592] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/media_profile/DAR01_DARTEST_019-12P.xml'.
+10/22/06 10:51:46.454,[ 9592] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/raid/raw/DARTEST/019-12/PRIMARY/FT36159/HSMFP01.xml' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/media_profile/DAR01_DARTEST_019-12P.xml'.
+10/22/06 10:51:46.496,[ 9592] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/DAR01_DARTEST_019-12P.xml'.
+10/22/06 10:51:46.496,[ 9592] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/raid/raw/DARTEST/019-12/PRIMARY/FT36159/HSMFP01.xml' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/DAR01_DARTEST_019-12P.xml'.
+10/22/06 11:05:21.320,[30108] <hb163c> "SrvOutputData" - Server started: /usr/tdrs/sw/exec/SrvOutputData, debug level=0, noDaemonFlag=0
+10/22/06 11:05:21.529,[30108] <hb163c> "SrvOutputData" - Main thread running as pid 30108
+10/22/06 11:05:21.530,[30108] <hb163c> "SrvOutputData" - *** Becoming a TCP server called 'OUTPUTDATA'
+10/22/06 11:05:21.532,[30108] <hb163c> "SrvOutputData" - OUTPUTDATA TCP server (pid=30108) listening on socket 6
+10/22/06 11:13:04.706,[30108] <hb163c> "SrvOutputData" - Accepted a request on fd 4; creating handler task.
+10/22/06 11:13:04.765,[30108] <hb163c> "SrvOutputData" - Sending job 9971 to host ''
+10/22/06 11:13:04.854,[30108] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP9971_D060412.txt'.
+10/22/06 11:13:04.855,[30108] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP9971_D060412.txt'.
+10/22/06 11:13:05.212,[30108] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'FTCS'
+10/22/06 11:13:05.242,[30108] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/COMPLETE_TDP9971_D060412.txt'.
+10/22/06 11:13:05.242,[30108] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/COMPLETE_TDP9971_D060412.txt'.
+10/22/06 11:13:05.255,[30108] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'MINDY'
+10/22/06 11:13:05.285,[30108] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/COMPLETE_TDP9971_D060412.txt'.
+10/22/06 11:13:05.285,[30108] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/COMPLETE_TDP9971_D060412.txt'.
+10/22/06 11:13:05.298,[30108] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'MORK'
+10/22/06 11:13:05.328,[30108] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/COMPLETE_TDP9971_D060412.txt'.
+10/22/06 11:13:05.328,[30108] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/COMPLETE_TDP9971_D060412.txt'.
+10/22/06 11:13:05.344,[30108] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'TSS'
+10/22/06 11:13:05.375,[30108] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/COMPLETE_TDP9971_D060412.txt'.
+10/22/06 11:13:05.375,[30108] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/COMPLETE_TDP9971_D060412.txt'.
+10/22/06 11:13:05.392,[30108] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'CVRR'
+10/22/06 11:13:05.505,[30108] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP9971_D060412.h5'.
+10/22/06 11:13:05.506,[30108] <hb163c> "SrvOutputData" - Uploading BINARY file '/usr/tdrs/data/smith/nakano/jobs/9971/TDP9971_D060412.h5' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP9971_D060412.h5'.
+10/22/06 11:13:18.320,[30108] <hb163c> "SrvOutputData" - WARNING!! Old job dir '/usr/tdrs/data/smith/nakano/jobs/9971' not removed
+10/22/06 11:13:18.868,[30108] <hb163c> "SrvOutputData" - *** Output done message '9971' not sent to DRQ; status=0x00012601 (LibDRQ - Invalid request number being passed to the drq_job_complete Library routine .).
+10/22/06 11:52:04.417,[30108] <hb163c> "SrvOutputData" - New DAR media profile name: 'DAR01_DARTEST_919-13P.xml'.
+10/22/06 11:52:04.448,[30108] <hb163c> "SrvOutputData" - Pathname for 'DAR01_DARTEST_919-13P.xml' is '/usr/tdrs/data/smith/nakano/raid/raw/DARTEST/919-13/PRIMARY/FT36159/HSMFP01.xml'.
+10/22/06 11:52:04.479,[30108] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/DAR01_DARTEST_919-13P.xml'.
+10/22/06 11:52:04.479,[30108] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/raid/raw/DARTEST/919-13/PRIMARY/FT36159/HSMFP01.xml' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/DAR01_DARTEST_919-13P.xml'.
+10/22/06 11:52:04.596,[30108] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/DAR01_DARTEST_919-13P.xml'.
+10/22/06 11:52:04.596,[30108] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/raid/raw/DARTEST/919-13/PRIMARY/FT36159/HSMFP01.xml' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/DAR01_DARTEST_919-13P.xml'.
+10/22/06 11:52:04.641,[30108] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/DAR01_DARTEST_919-13P.xml'.
+10/22/06 11:52:04.641,[30108] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/raid/raw/DARTEST/919-13/PRIMARY/FT36159/HSMFP01.xml' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/DAR01_DARTEST_919-13P.xml'.
+10/23/06 17:44:57.612,[31759] <hb163c> "SrvOutputData" - Server started: /usr/tdrs/sw/exec/SrvOutputData, debug level=0, noDaemonFlag=0
+10/23/06 17:44:57.846,[31759] <hb163c> "SrvOutputData" - Main thread running as pid 31759
+10/23/06 17:44:57.846,[31759] <hb163c> "SrvOutputData" - *** Becoming a TCP server called 'OUTPUTDATA'
+10/23/06 17:44:57.848,[31759] <hb163c> "SrvOutputData" - OUTPUTDATA TCP server (pid=31759) listening on socket 3
+10/23/06 17:47:06.654,[31759] <hb163c> "SrvOutputData" - Accepted a request on fd 5; creating handler task.
+10/23/06 17:47:06.654,[31759] <hb163c> "SrvOutputData" - Sending job 9971 to host ''
+10/23/06 17:47:06.654,[31759] <hb163c> "SrvOutputData" - Sending job 9971 to host ''
+10/23/06 17:47:06.654,[31759] <hb163c> "SrvOutputData" - Sending job 9971 to host ''
+10/23/06 17:47:06.685,[31759] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP9971_D060412.txt'.
+10/23/06 17:47:06.685,[31759] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP9971_D060412.txt'.
+10/23/06 17:47:06.760,[31759] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'FTCS'
+10/23/06 17:47:06.799,[31759] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/COMPLETE_TDP9971_D060412.txt'.
+10/23/06 17:47:06.799,[31759] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/COMPLETE_TDP9971_D060412.txt'.
+10/23/06 17:47:06.812,[31759] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'MINDY'
+10/23/06 17:47:06.849,[31759] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/COMPLETE_TDP9971_D060412.txt'.
+10/23/06 17:47:06.849,[31759] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/COMPLETE_TDP9971_D060412.txt'.
+10/23/06 17:47:06.864,[31759] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'MORK'
+10/23/06 17:47:06.893,[31759] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/COMPLETE_TDP9971_D060412.txt'.
+10/23/06 17:47:06.893,[31759] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/COMPLETE_TDP9971_D060412.txt'.
+10/23/06 17:47:06.910,[31759] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'TSS'
+10/23/06 17:47:06.945,[31759] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/COMPLETE_TDP9971_D060412.txt'.
+10/23/06 17:47:06.945,[31759] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/COMPLETE_TDP9971_D060412.txt'.
+10/23/06 17:47:06.959,[31759] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'CVRR'
+10/23/06 17:47:07.034,[31759] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs//usr/tdrs/data/smith/nakano/jobs/9971/TDP9971_D060412.h5'.
+10/23/06 17:47:07.035,[31759] <hb163c> "SrvOutputData" - *** Failed to stat(2) '' for site-specific commands; errno=2 (No such file or directory)
+10/23/06 17:47:07.035,[31759] <hb163c> "SrvOutputData" - Uploading BINARY file '' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs//usr/tdrs/data/smith/nakano/jobs/9971/TDP9971_D060412.h5'.
+10/23/06 17:47:07.035,[31759] <hb163c> "SrvOutputData" - *** Cannot open file '' for transmit; errno=2 (No such file or directory).
+10/23/06 17:47:08.076,[31759] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs//usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt'.
+10/23/06 17:47:08.076,[31759] <hb163c> "SrvOutputData" - *** Failed to stat(2) '' for site-specific commands; errno=2 (No such file or directory)
+10/23/06 17:47:08.076,[31759] <hb163c> "SrvOutputData" - Uploading ASCII file '' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs//usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt'.
+10/23/06 17:47:08.076,[31759] <hb163c> "SrvOutputData" - *** Cannot open file '' for transmit; errno=2 (No such file or directory).
+10/23/06 17:47:08.101,[31759] <hb163c> "SrvOutputData" - *** Output done message '9971' not sent to DRQ; status=0x00012601 (LibDRQ - Invalid request number being passed to the drq_job_complete Library routine .).
+10/23/06 18:18:23.582,[21894] <hb163c> "SrvOutputData" - Server started: /usr/tdrs/sw/exec/SrvOutputData, debug level=0, noDaemonFlag=0
+10/23/06 18:18:23.849,[21894] <hb163c> "SrvOutputData" - Main thread running as pid 21894
+10/23/06 18:18:23.849,[21894] <hb163c> "SrvOutputData" - *** Becoming a TCP server called 'OUTPUTDATA'
+10/23/06 18:18:23.852,[21894] <hb163c> "SrvOutputData" - OUTPUTDATA TCP server (pid=21894) listening on socket 3
+10/25/06 22:07:35.189,[14933] <hb163c> "SrvOutputData" - Server started: /usr/tdrs/sw/exec/SrvOutputData, debug level=0, noDaemonFlag=0
+10/25/06 22:07:35.440,[14933] <hb163c> "SrvOutputData" - Main thread running as pid 14933
+10/25/06 22:07:35.440,[14933] <hb163c> "SrvOutputData" - *** Becoming a TCP server called 'OUTPUTDATA'
+10/25/06 22:07:35.443,[14933] <hb163c> "SrvOutputData" - OUTPUTDATA TCP server (pid=14933) listening on socket 3
+10/25/06 22:22:11.810,[28567] <hb163c> "SrvOutputData" - Server started: /usr/tdrs/sw/exec/SrvOutputData, debug level=0, noDaemonFlag=0
+10/25/06 22:22:12.035,[28567] <hb163c> "SrvOutputData" - Main thread running as pid 28567
+10/25/06 22:22:12.035,[28567] <hb163c> "SrvOutputData" - *** Becoming a TCP server called 'OUTPUTDATA'
+10/25/06 22:22:12.038,[28567] <hb163c> "SrvOutputData" - OUTPUTDATA TCP server (pid=28567) listening on socket 5
+10/25/06 22:24:42.054,[28567] <hb163c> "SrvOutputData" - Accepted a request on fd 4; creating handler task.
+10/25/06 22:24:42.054,[28567] <hb163c> "SrvOutputData" - Sending job 9971 to host 'FTCS'
+10/25/06 22:24:42.054,[28567] <hb163c> "SrvOutputData" - Sending job 9971 to host 'FTCS'
+10/25/06 22:24:42.087,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP9971_D060412.txt'.
+10/25/06 22:24:42.088,[28567] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP9971_D060412.txt'.
+10/25/06 22:24:42.186,[28567] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'FTCS'
+10/25/06 22:24:42.217,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/drq/COMPLETE_TDP9971_D060412.txt'.
+10/25/06 22:24:42.218,[28567] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/drq/COMPLETE_TDP9971_D060412.txt'.
+10/25/06 22:24:42.239,[28567] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'MINDY'
+10/25/06 22:24:42.267,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/drq/COMPLETE_TDP9971_D060412.txt'.
+10/25/06 22:24:42.267,[28567] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/drq/COMPLETE_TDP9971_D060412.txt'.
+10/25/06 22:24:42.279,[28567] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'MORK'
+10/25/06 22:24:42.309,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/drq/COMPLETE_TDP9971_D060412.txt'.
+10/25/06 22:24:42.309,[28567] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/drq/COMPLETE_TDP9971_D060412.txt'.
+10/25/06 22:24:42.322,[28567] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'TSS'
+10/25/06 22:24:42.351,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/drq/COMPLETE_TDP9971_D060412.txt'.
+10/25/06 22:24:42.351,[28567] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/drq/COMPLETE_TDP9971_D060412.txt'.
+10/25/06 22:24:42.370,[28567] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'CVRR'
+10/25/06 22:24:42.370,[28567] <hb163c> "SrvOutputData" - ERROR!! Could not create and distribute JCL file
+10/25/06 22:24:42.443,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP9971_D060412.h5'.
+10/25/06 22:24:42.443,[28567] <hb163c> "SrvOutputData" - Uploading BINARY file '/usr/tdrs/data/smith/nakano/jobs/9971/TDP9971_D060412.h5' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP9971_D060412.h5'.
+10/25/06 22:24:43.525,[28567] <hb163c> "SrvOutputData" - WARNING!! Job dir '/usr/tdrs/data/smith/nakano/jobs/9971' not removed; errno=39 (Directory not empty)
+10/25/06 22:24:43.525,[28567] <hb163c> "SrvOutputData" - WARNING!! Fossil file = '.'
+10/25/06 22:24:43.525,[28567] <hb163c> "SrvOutputData" - WARNING!! Fossil file = '..'
+10/25/06 22:24:43.525,[28567] <hb163c> "SrvOutputData" - WARNING!! Fossil file = '9971MD.FTCS'
+10/25/06 22:24:43.525,[28567] <hb163c> "SrvOutputData" - WARNING!! You must deal with these files manually
+10/25/06 22:24:43.549,[28567] <hb163c> "SrvOutputData" - *** Output done message '9971' not sent to DRQ; status=0x00012601 (LibDRQ - Invalid request number being passed to the drq_job_complete Library routine .).
+10/25/06 22:32:44.590,[28567] <hb163c> "SrvOutputData" - Sending job 9971 to host 'FTCS'
+10/25/06 22:32:44.590,[28567] <hb163c> "SrvOutputData" - Sending job 9971 to host 'FTCS'
+10/25/06 22:32:44.621,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP9971_D060412.txt'.
+10/25/06 22:32:44.621,[28567] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP9971_D060412.txt'.
+10/25/06 22:32:44.632,[28567] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'FTCS'
+10/25/06 22:32:44.661,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/drq/COMPLETE_TDP9971_D060412.txt'.
+10/25/06 22:32:44.661,[28567] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/drq/COMPLETE_TDP9971_D060412.txt'.
+10/25/06 22:32:44.672,[28567] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'MINDY'
+10/25/06 22:32:44.701,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/drq/COMPLETE_TDP9971_D060412.txt'.
+10/25/06 22:32:44.701,[28567] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/drq/COMPLETE_TDP9971_D060412.txt'.
+10/25/06 22:32:44.712,[28567] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'MORK'
+10/25/06 22:32:44.741,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/drq/COMPLETE_TDP9971_D060412.txt'.
+10/25/06 22:32:44.741,[28567] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/drq/COMPLETE_TDP9971_D060412.txt'.
+10/25/06 22:32:44.757,[28567] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'TSS'
+10/25/06 22:32:44.785,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/drq/COMPLETE_TDP9971_D060412.txt'.
+10/25/06 22:32:44.785,[28567] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/drq/COMPLETE_TDP9971_D060412.txt'.
+10/25/06 22:32:44.796,[28567] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'CVRR'
+10/25/06 22:32:44.796,[28567] <hb163c> "SrvOutputData" - ERROR!! Could not create and distribute JCL file
+10/25/06 22:32:44.871,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP9971_D060412.h5'.
+10/25/06 22:32:44.871,[28567] <hb163c> "SrvOutputData" - Uploading BINARY file '/usr/tdrs/data/smith/nakano/jobs/9971/TDP9971_D060412.h5' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP9971_D060412.h5'.
+10/25/06 22:32:45.884,[28567] <hb163c> "SrvOutputData" - WARNING!! Job dir '/usr/tdrs/data/smith/nakano/jobs/9971' not removed; errno=39 (Directory not empty)
+10/25/06 22:32:45.884,[28567] <hb163c> "SrvOutputData" - WARNING!! Fossil file = '.'
+10/25/06 22:32:45.884,[28567] <hb163c> "SrvOutputData" - WARNING!! Fossil file = '..'
+10/25/06 22:32:45.884,[28567] <hb163c> "SrvOutputData" - WARNING!! Fossil file = '9971MD.FTCS'
+10/25/06 22:32:45.884,[28567] <hb163c> "SrvOutputData" - WARNING!! You must deal with these files manually
+10/25/06 22:32:45.902,[28567] <hb163c> "SrvOutputData" - *** Output done message '9971' not sent to DRQ; status=0x00012601 (LibDRQ - Invalid request number being passed to the drq_job_complete Library routine .).
+10/25/06 22:53:02.197,[28567] <hb163c> "SrvOutputData" - *** Thread 'rha-1' connection broken on fd=4: status=11768
+10/25/06 22:53:06.330,[28567] <hb163c> "SrvOutputData" - Accepted a request on fd 4; creating handler task.
+10/25/06 22:53:06.330,[28567] <hb163c> "SrvOutputData" - Sending job 3368 to host 'FTCS'
+10/25/06 22:53:06.330,[28567] <hb163c> "SrvOutputData" - Sending job 3368 to host 'FTCS'
+10/25/06 22:53:06.359,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP3368_D051013.txt'.
+10/25/06 22:53:06.359,[28567] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/3368/COMPLETE_TDP3368_D051013.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP3368_D051013.txt'.
+10/25/06 22:53:06.430,[28567] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP3368_D051013.txt' sent to 'FTCS'
+10/25/06 22:53:06.458,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/drq/COMPLETE_TDP3368_D051013.txt'.
+10/25/06 22:53:06.458,[28567] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/3368/COMPLETE_TDP3368_D051013.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/drq/COMPLETE_TDP3368_D051013.txt'.
+10/25/06 22:53:06.472,[28567] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP3368_D051013.txt' sent to 'MINDY'
+10/25/06 22:53:06.500,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/drq/COMPLETE_TDP3368_D051013.txt'.
+10/25/06 22:53:06.500,[28567] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/3368/COMPLETE_TDP3368_D051013.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/drq/COMPLETE_TDP3368_D051013.txt'.
+10/25/06 22:53:06.512,[28567] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP3368_D051013.txt' sent to 'MORK'
+10/25/06 22:53:06.541,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/drq/COMPLETE_TDP3368_D051013.txt'.
+10/25/06 22:53:06.541,[28567] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/3368/COMPLETE_TDP3368_D051013.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/drq/COMPLETE_TDP3368_D051013.txt'.
+10/25/06 22:53:06.554,[28567] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP3368_D051013.txt' sent to 'TSS'
+10/25/06 22:53:06.583,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/drq/COMPLETE_TDP3368_D051013.txt'.
+10/25/06 22:53:06.583,[28567] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/3368/COMPLETE_TDP3368_D051013.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/drq/COMPLETE_TDP3368_D051013.txt'.
+10/25/06 22:53:06.603,[28567] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP3368_D051013.txt' sent to 'CVRR'
+10/25/06 22:53:06.603,[28567] <hb163c> "SrvOutputData" - ERROR!! Could not create and distribute JCL file
+10/25/06 22:53:06.681,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP3368_D051013.h5'.
+10/25/06 22:53:06.681,[28567] <hb163c> "SrvOutputData" - Uploading BINARY file '/usr/tdrs/data/smith/nakano/jobs/3368/TDP3368_D051013.h5' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP3368_D051013.h5'.
+10/25/06 22:53:07.712,[28567] <hb163c> "SrvOutputData" - WARNING!! Job dir '/usr/tdrs/data/smith/nakano/jobs/3368' not removed; errno=39 (Directory not empty)
+10/25/06 22:53:07.712,[28567] <hb163c> "SrvOutputData" - WARNING!! Fossil file = '.'
+10/25/06 22:53:07.712,[28567] <hb163c> "SrvOutputData" - WARNING!! Fossil file = '..'
+10/25/06 22:53:07.712,[28567] <hb163c> "SrvOutputData" - WARNING!! Fossil file = '3368MD.FTCS'
+10/25/06 22:53:07.712,[28567] <hb163c> "SrvOutputData" - WARNING!! You must deal with these files manually
+10/25/06 22:53:07.730,[28567] <hb163c> "SrvOutputData" - *** HAS output complete message not send; status=0x00012807 (srvHAS - Request in wrong state.).
+10/25/06 22:53:07.750,[28567] <hb163c> "SrvOutputData" - *** Thread 'rha-2' connection broken on fd=4: status=11768
+10/26/06 01:40:51.426,[28567] <hb163c> "SrvOutputData" - Accepted a request on fd 4; creating handler task.
+10/26/06 01:40:51.457,[28567] <hb163c> "SrvOutputData" - Sending job 1586 to host 'FTCS'
+10/26/06 01:40:51.458,[28567] <hb163c> "SrvOutputData" - Sending job 1586 to host 'FTCS'
+10/26/06 01:40:51.496,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP1586_D060505.txt'.
+10/26/06 01:40:51.496,[28567] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/1586/COMPLETE_TDP1586_D060505.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP1586_D060505.txt'.
+10/26/06 01:40:51.612,[28567] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP1586_D060505.txt' sent to 'FTCS'
+10/26/06 01:40:51.641,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/drq/COMPLETE_TDP1586_D060505.txt'.
+10/26/06 01:40:51.641,[28567] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/1586/COMPLETE_TDP1586_D060505.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/drq/COMPLETE_TDP1586_D060505.txt'.
+10/26/06 01:40:51.680,[28567] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP1586_D060505.txt' sent to 'MINDY'
+10/26/06 01:40:51.710,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/drq/COMPLETE_TDP1586_D060505.txt'.
+10/26/06 01:40:51.710,[28567] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/1586/COMPLETE_TDP1586_D060505.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/drq/COMPLETE_TDP1586_D060505.txt'.
+10/26/06 01:40:51.723,[28567] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP1586_D060505.txt' sent to 'MORK'
+10/26/06 01:40:51.752,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/drq/COMPLETE_TDP1586_D060505.txt'.
+10/26/06 01:40:51.752,[28567] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/1586/COMPLETE_TDP1586_D060505.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/drq/COMPLETE_TDP1586_D060505.txt'.
+10/26/06 01:40:51.769,[28567] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP1586_D060505.txt' sent to 'TSS'
+10/26/06 01:40:51.798,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/drq/COMPLETE_TDP1586_D060505.txt'.
+10/26/06 01:40:51.798,[28567] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/1586/COMPLETE_TDP1586_D060505.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/drq/COMPLETE_TDP1586_D060505.txt'.
+10/26/06 01:40:51.817,[28567] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP1586_D060505.txt' sent to 'CVRR'
+10/26/06 01:40:51.852,[28567] <hb163c> "SrvOutputData" - ERROR!! Could not create and distribute JCL file
+10/26/06 01:40:51.943,[28567] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP1586_D060505.h5'.
+10/26/06 01:40:51.943,[28567] <hb163c> "SrvOutputData" - Uploading BINARY file '/usr/tdrs/data/smith/nakano/jobs/1586/TDP1586_D060505.h5' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP1586_D060505.h5'.
+10/26/06 01:41:04.617,[28567] <hb163c> "SrvOutputData" - WARNING!! Job dir '/usr/tdrs/data/smith/nakano/jobs/1586' not removed; errno=39 (Directory not empty)
+10/26/06 01:41:04.617,[28567] <hb163c> "SrvOutputData" - WARNING!! Fossil file = '.'
+10/26/06 01:41:04.617,[28567] <hb163c> "SrvOutputData" - WARNING!! Fossil file = '..'
+10/26/06 01:41:04.617,[28567] <hb163c> "SrvOutputData" - WARNING!! Fossil file = '1586MD.FTCS'
+10/26/06 01:41:04.617,[28567] <hb163c> "SrvOutputData" - WARNING!! You must deal with these files manually
+10/26/06 01:41:04.635,[28567] <hb163c> "SrvOutputData" - *** HAS output complete message not send; status=0x00012807 (srvHAS - Request in wrong state.).
+10/26/06 13:40:43.014,[18174] <hb163c> "SrvOutputData" - Server started: /usr/tdrs/sw/exec/SrvOutputData, debug level=0, noDaemonFlag=0
+10/26/06 13:40:43.239,[18174] <hb163c> "SrvOutputData" - Main thread running as pid 18174
+10/26/06 13:40:43.240,[18174] <hb163c> "SrvOutputData" - *** Becoming a TCP server called 'OUTPUTDATA'
+10/26/06 13:40:43.243,[18174] <hb163c> "SrvOutputData" - OUTPUTDATA TCP server (pid=18174) listening on socket 6
+10/26/06 14:42:52.716,[18174] <hb163c> "SrvOutputData" - Accepted a request on fd 4; creating handler task.
+10/26/06 14:42:52.736,[18174] <hb163c> "SrvOutputData" - New DAR media profile name: 'DAR01_DARTEST_019-12P.xml'.
+10/26/06 14:42:52.751,[18174] <hb163c> "SrvOutputData" - Pathname for 'DAR01_DARTEST_019-12P.xml' is '/usr/tdrs/data/smith/nakano/raid/raw/DARTEST/019-12/PRIMARY/FT36159/HSMFP01.xml'.
+10/26/06 14:42:52.780,[18174] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/DAR01_DARTEST_019-12P.xml'.
+10/26/06 14:42:52.781,[18174] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/raid/raw/DARTEST/019-12/PRIMARY/FT36159/HSMFP01.xml' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/DAR01_DARTEST_019-12P.xml'.
+10/26/06 14:42:53.068,[18174] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/media_profile/DAR01_DARTEST_019-12P.xml'.
+10/26/06 14:42:53.069,[18174] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/raid/raw/DARTEST/019-12/PRIMARY/FT36159/HSMFP01.xml' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/media_profile/DAR01_DARTEST_019-12P.xml'.
+10/26/06 14:42:53.116,[18174] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/media_profile/DAR01_DARTEST_019-12P.xml'.
+10/26/06 14:42:53.116,[18174] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/raid/raw/DARTEST/019-12/PRIMARY/FT36159/HSMFP01.xml' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/media_profile/DAR01_DARTEST_019-12P.xml'.
+10/26/06 15:30:22.360,[18174] <hb163c> "SrvOutputData" - Sending job 9971 to host 'FTCS'
+10/26/06 15:30:22.360,[18174] <hb163c> "SrvOutputData" - Sending job 9971 to host 'FTCS'
+10/26/06 15:30:22.389,[18174] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 15:30:22.389,[18174] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 15:30:22.403,[18174] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'FTCS'
+10/26/06 15:30:22.434,[18174] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 15:30:22.435,[18174] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 15:30:22.446,[18174] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'MINDY'
+10/26/06 15:30:22.476,[18174] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 15:30:22.476,[18174] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 15:30:22.488,[18174] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'MORK'
+10/26/06 15:30:22.519,[18174] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 15:30:22.519,[18174] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 15:30:22.531,[18174] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'TSS'
+10/26/06 15:30:22.562,[18174] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 15:30:22.562,[18174] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 15:30:22.574,[18174] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'CVRR'
+10/26/06 15:30:22.574,[18174] <hb163c> "SrvOutputData" - ERROR!! Could not create and distribute JCL file
+10/26/06 15:30:22.646,[18174] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP9971_D060412.h5'.
+10/26/06 15:30:22.646,[18174] <hb163c> "SrvOutputData" - Uploading BINARY file '/usr/tdrs/data/smith/nakano/jobs/9971/TDP9971_D060412.h5' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP9971_D060412.h5'.
+10/26/06 15:30:23.713,[18174] <hb163c> "SrvOutputData" - WARNING!! Job dir '/usr/tdrs/data/smith/nakano/jobs/9971' not removed; errno=39 (Directory not empty)
+10/26/06 15:30:23.713,[18174] <hb163c> "SrvOutputData" - WARNING!! Fossil file = '.'
+10/26/06 15:30:23.713,[18174] <hb163c> "SrvOutputData" - WARNING!! Fossil file = '..'
+10/26/06 15:30:23.713,[18174] <hb163c> "SrvOutputData" - WARNING!! Fossil file = '9971MD.FTCS'
+10/26/06 15:30:23.713,[18174] <hb163c> "SrvOutputData" - WARNING!! You must deal with these files manually
+10/26/06 15:30:23.751,[18174] <hb163c> "SrvOutputData" - *** HAS output complete message not send; status=0x00012807 (srvHAS - Request in wrong state.).
+10/26/06 15:33:55.215,[18174] <hb163c> "SrvOutputData" - Accepted a request on fd 9; creating handler task.
+10/26/06 15:33:55.254,[18174] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP5003_D123456.txt'.
+10/26/06 15:33:55.255,[18174] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/5003/COMPLETE_TDP5003_D123456.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP5003_D123456.txt'.
+10/26/06 15:33:55.267,[18174] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP5003_D123456.txt' sent to 'FTCS'
+10/26/06 15:33:55.300,[18174] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/drq/COMPLETE_TDP5003_D123456.txt'.
+10/26/06 15:33:55.300,[18174] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/5003/COMPLETE_TDP5003_D123456.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/drq/COMPLETE_TDP5003_D123456.txt'.
+10/26/06 15:33:55.314,[18174] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP5003_D123456.txt' sent to 'MINDY'
+10/26/06 15:33:55.347,[18174] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/drq/COMPLETE_TDP5003_D123456.txt'.
+10/26/06 15:33:55.347,[18174] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/5003/COMPLETE_TDP5003_D123456.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/drq/COMPLETE_TDP5003_D123456.txt'.
+10/26/06 15:33:55.359,[18174] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP5003_D123456.txt' sent to 'MORK'
+10/26/06 15:33:55.390,[18174] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/drq/COMPLETE_TDP5003_D123456.txt'.
+10/26/06 15:33:55.390,[18174] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/5003/COMPLETE_TDP5003_D123456.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/drq/COMPLETE_TDP5003_D123456.txt'.
+10/26/06 15:33:55.402,[18174] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP5003_D123456.txt' sent to 'TSS'
+10/26/06 15:33:55.432,[18174] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/drq/COMPLETE_TDP5003_D123456.txt'.
+10/26/06 15:33:55.432,[18174] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/5003/COMPLETE_TDP5003_D123456.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/drq/COMPLETE_TDP5003_D123456.txt'.
+10/26/06 15:33:55.444,[18174] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP5003_D123456.txt' sent to 'CVRR'
+10/26/06 15:33:55.444,[18174] <hb163c> "SrvOutputData" - ERROR!! Could not create and distribute JCL file
+10/26/06 15:33:55.444,[18174] <hb163c> "SrvOutputData" - WARNING!! Error writing JCL file
+10/26/06 15:42:52.073,[18174] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP3663_D123456.txt'.
+10/26/06 15:42:52.073,[18174] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/3663/COMPLETE_TDP3663_D123456.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP3663_D123456.txt'.
+10/26/06 15:42:52.085,[18174] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP3663_D123456.txt' sent to 'FTCS'
+10/26/06 15:42:52.117,[18174] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/drq/COMPLETE_TDP3663_D123456.txt'.
+10/26/06 15:42:52.117,[18174] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/3663/COMPLETE_TDP3663_D123456.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/drq/COMPLETE_TDP3663_D123456.txt'.
+10/26/06 15:42:52.129,[18174] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP3663_D123456.txt' sent to 'MINDY'
+10/26/06 15:42:52.158,[18174] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/drq/COMPLETE_TDP3663_D123456.txt'.
+10/26/06 15:42:52.158,[18174] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/3663/COMPLETE_TDP3663_D123456.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/drq/COMPLETE_TDP3663_D123456.txt'.
+10/26/06 15:42:52.171,[18174] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP3663_D123456.txt' sent to 'MORK'
+10/26/06 15:42:52.202,[18174] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/drq/COMPLETE_TDP3663_D123456.txt'.
+10/26/06 15:42:52.202,[18174] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/3663/COMPLETE_TDP3663_D123456.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/drq/COMPLETE_TDP3663_D123456.txt'.
+10/26/06 15:42:52.218,[18174] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP3663_D123456.txt' sent to 'TSS'
+10/26/06 15:42:52.248,[18174] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/drq/COMPLETE_TDP3663_D123456.txt'.
+10/26/06 15:42:52.248,[18174] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/3663/COMPLETE_TDP3663_D123456.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/drq/COMPLETE_TDP3663_D123456.txt'.
+10/26/06 15:42:52.260,[18174] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP3663_D123456.txt' sent to 'CVRR'
+10/26/06 15:42:52.260,[18174] <hb163c> "SrvOutputData" - ERROR!! Could not create and distribute JCL file
+10/26/06 15:42:52.260,[18174] <hb163c> "SrvOutputData" - WARNING!! Error writing JCL file
+10/26/06 16:20:05.939,[29579] <hb163c> "SrvOutputData" - Server started: /usr/tdrs/sw/exec/SrvOutputData, debug level=0, noDaemonFlag=0
+10/26/06 16:20:06.178,[29579] <hb163c> "SrvOutputData" - Main thread running as pid 29579
+10/26/06 16:20:06.178,[29579] <hb163c> "SrvOutputData" - *** Becoming a TCP server called 'OUTPUTDATA'
+10/26/06 16:20:06.181,[29579] <hb163c> "SrvOutputData" - OUTPUTDATA TCP server (pid=29579) listening on socket 4
+10/26/06 16:23:32.311,[29579] <hb163c> "SrvOutputData" - Accepted a request on fd 5; creating handler task.
+10/26/06 16:23:32.312,[29579] <hb163c> "SrvOutputData" - Sending job 8893 to host 'FTCS'
+10/26/06 16:23:32.312,[29579] <hb163c> "SrvOutputData" - *** Could not read first 61 bytes of '/usr/tdrs/data/smith/nakano/jobs/8893/TD1.FTCS.WDS.FILE1.TDP8893.D060329'
+10/26/06 16:23:32.312,[29579] <hb163c> "SrvOutputData" - Sending job 8893 to host 'FTCS'
+10/26/06 16:23:32.312,[29579] <hb163c> "SrvOutputData" - Sending job 8893 to host 'FTCS'
+10/26/06 16:23:32.312,[29579] <hb163c> "SrvOutputData" - Sending job 8893 to host 'FTCS'
+10/26/06 16:23:32.312,[29579] <hb163c> "SrvOutputData" - Sending job 8893 to host 'FTCS'
+10/26/06 16:23:32.312,[29579] <hb163c> "SrvOutputData" - Sending job 8893 to host 'FTCS'
+10/26/06 16:23:32.313,[29579] <hb163c> "SrvOutputData" - Sending job 8893 to host 'FTCS'
+10/26/06 16:23:32.344,[29579] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP8893_Dmmyydd.txt'.
+10/26/06 16:23:32.344,[29579] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/8893/COMPLETE_TDP8893_Dmmyydd.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP8893_Dmmyydd.txt'.
+10/26/06 16:23:32.358,[29579] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP8893_Dmmyydd.txt' sent to 'FTCS'
+10/26/06 16:23:32.387,[29579] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/drq/COMPLETE_TDP8893_Dmmyydd.txt'.
+10/26/06 16:23:32.387,[29579] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/8893/COMPLETE_TDP8893_Dmmyydd.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/drq/COMPLETE_TDP8893_Dmmyydd.txt'.
+10/26/06 16:23:32.399,[29579] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP8893_Dmmyydd.txt' sent to 'MINDY'
+10/26/06 16:23:32.428,[29579] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/drq/COMPLETE_TDP8893_Dmmyydd.txt'.
+10/26/06 16:23:32.428,[29579] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/8893/COMPLETE_TDP8893_Dmmyydd.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/drq/COMPLETE_TDP8893_Dmmyydd.txt'.
+10/26/06 16:23:32.440,[29579] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP8893_Dmmyydd.txt' sent to 'MORK'
+10/26/06 16:23:32.469,[29579] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/drq/COMPLETE_TDP8893_Dmmyydd.txt'.
+10/26/06 16:23:32.469,[29579] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/8893/COMPLETE_TDP8893_Dmmyydd.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/drq/COMPLETE_TDP8893_Dmmyydd.txt'.
+10/26/06 16:23:32.481,[29579] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP8893_Dmmyydd.txt' sent to 'TSS'
+10/26/06 16:23:32.512,[29579] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/drq/COMPLETE_TDP8893_Dmmyydd.txt'.
+10/26/06 16:23:32.512,[29579] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/8893/COMPLETE_TDP8893_Dmmyydd.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/drq/COMPLETE_TDP8893_Dmmyydd.txt'.
+10/26/06 16:23:32.524,[29579] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP8893_Dmmyydd.txt' sent to 'CVRR'
+10/26/06 16:23:32.597,[29579] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TD1.FTCS.WDS.FILE1.TDP8893.D060329'.
+10/26/06 16:23:32.597,[29579] <hb163c> "SrvOutputData" - Uploading BINARY file '/usr/tdrs/data/smith/nakano/jobs/8893/TD1.FTCS.WDS.FILE1.TDP8893.D060329' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TD1.FTCS.WDS.FILE1.TDP8893.D060329'.
+10/26/06 16:23:33.654,[29579] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TD1.FTCS.WDS.FILE2.TDP8893.D060329'.
+10/26/06 16:23:33.654,[29579] <hb163c> "SrvOutputData" - Uploading BINARY file '/usr/tdrs/data/smith/nakano/jobs/8893/TD1.FTCS.WDS.FILE2.TDP8893.D060329' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TD1.FTCS.WDS.FILE2.TDP8893.D060329'.
+10/26/06 16:23:34.708,[29579] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TD1.FTCS.WDS.FILE3.TDP8893.D060329'.
+10/26/06 16:23:34.708,[29579] <hb163c> "SrvOutputData" - Uploading BINARY file '/usr/tdrs/data/smith/nakano/jobs/8893/TD1.FTCS.WDS.FILE3.TDP8893.D060329' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TD1.FTCS.WDS.FILE3.TDP8893.D060329'.
+10/26/06 16:23:35.762,[29579] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TD1.FTCS.WDS.FILE4.TDP8893.D060329'.
+10/26/06 16:23:35.762,[29579] <hb163c> "SrvOutputData" - Uploading BINARY file '/usr/tdrs/data/smith/nakano/jobs/8893/TD1.FTCS.WDS.FILE4.TDP8893.D060329' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TD1.FTCS.WDS.FILE4.TDP8893.D060329'.
+10/26/06 16:23:37.139,[29579] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TD1.FTCS.WDS.FILE5.TDP8893.D060329'.
+10/26/06 16:23:37.139,[29579] <hb163c> "SrvOutputData" - Uploading BINARY file '/usr/tdrs/data/smith/nakano/jobs/8893/TD1.FTCS.WDS.FILE5.TDP8893.D060329' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TD1.FTCS.WDS.FILE5.TDP8893.D060329'.
+10/26/06 16:23:38.190,[29579] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TD1.FTCS.WDS.FILE6.TDP8893.D060329'.
+10/26/06 16:23:38.190,[29579] <hb163c> "SrvOutputData" - Uploading BINARY file '/usr/tdrs/data/smith/nakano/jobs/8893/TD1.FTCS.WDS.FILE6.TDP8893.D060329' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TD1.FTCS.WDS.FILE6.TDP8893.D060329'.
+10/26/06 16:23:39.241,[29579] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDRS8893.JCL'.
+10/26/06 16:23:39.241,[29579] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/8893/TDRS8893.JCL' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDRS8893.JCL'.
+10/26/06 16:23:39.254,[29579] <hb163c> "SrvOutputData" - WARNING!! Job dir '/usr/tdrs/data/smith/nakano/jobs/8893' not removed; errno=39 (Directory not empty)
+10/26/06 16:23:39.254,[29579] <hb163c> "SrvOutputData" - WARNING!! Fossil file = '.'
+10/26/06 16:23:39.254,[29579] <hb163c> "SrvOutputData" - WARNING!! Fossil file = '..'
+10/26/06 16:23:39.254,[29579] <hb163c> "SrvOutputData" - WARNING!! Fossil file = 'DR8893'
+10/26/06 16:23:39.254,[29579] <hb163c> "SrvOutputData" - WARNING!! You must deal with these files manually
+10/26/06 16:23:39.275,[29579] <hb163c> "SrvOutputData" - *** HAS output complete message not send; status=0x00012807 (srvHAS - Request in wrong state.).
+10/26/06 16:23:39.300,[29579] <hb163c> "SrvOutputData" - *** Output done message '8893' not sent to DRQ; status=0x00012601 (LibDRQ - Invalid request number being passed to the drq_job_complete Library routine .).
+10/26/06 16:23:39.300,[29579] <hb163c> "SrvOutputData" - *** Thread 'rha-1' connection broken on fd=5: status=11768
+10/26/06 16:55:55.164,[28260] <hb163c> "SrvOutputData" - Server started: /usr/tdrs/sw/exec/SrvOutputData, debug level=0, noDaemonFlag=0
+10/26/06 16:55:55.443,[28260] <hb163c> "SrvOutputData" - Main thread running as pid 28260
+10/26/06 16:55:55.443,[28260] <hb163c> "SrvOutputData" - *** Becoming a TCP server called 'OUTPUTDATA'
+10/26/06 16:55:55.446,[28260] <hb163c> "SrvOutputData" - OUTPUTDATA TCP server (pid=28260) listening on socket 6
+10/26/06 16:58:19.258,[28260] <hb163c> "SrvOutputData" - Accepted a request on fd 4; creating handler task.
+10/26/06 16:58:19.259,[28260] <hb163c> "SrvOutputData" - Sending job 9971 to host 'FTCS'
+10/26/06 16:58:19.259,[28260] <hb163c> "SrvOutputData" - Sending job 9971 to host 'FTCS'
+10/26/06 16:58:19.309,[28260] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 16:58:19.310,[28260] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 16:58:19.325,[28260] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'FTCS'
+10/26/06 16:58:19.360,[28260] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 16:58:19.360,[28260] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 16:58:19.372,[28260] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'MINDY'
+10/26/06 16:58:19.400,[28260] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 16:58:19.400,[28260] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 16:58:19.412,[28260] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'MORK'
+10/26/06 16:58:19.444,[28260] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 16:58:19.444,[28260] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 16:58:19.456,[28260] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'TSS'
+10/26/06 16:58:19.487,[28260] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 16:58:19.487,[28260] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 16:58:19.499,[28260] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'CVRR'
+10/26/06 16:58:19.575,[28260] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP9971_D060412.h5'.
+10/26/06 16:58:19.575,[28260] <hb163c> "SrvOutputData" - Uploading BINARY file '/usr/tdrs/data/smith/nakano/jobs/9971/TDP9971_D060412.h5' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP9971_D060412.h5'.
+10/26/06 16:58:20.608,[28260] <hb163c> "SrvOutputData" - WARNING!! Job dir '/usr/tdrs/data/smith/nakano/jobs/9971' not removed; errno=39 (Directory not empty)
+10/26/06 16:58:20.608,[28260] <hb163c> "SrvOutputData" - WARNING!! Fossil file = '.'
+10/26/06 16:58:20.608,[28260] <hb163c> "SrvOutputData" - WARNING!! Fossil file = '..'
+10/26/06 16:58:20.608,[28260] <hb163c> "SrvOutputData" - WARNING!! Fossil file = '9971MD.FTCS'
+10/26/06 16:58:20.608,[28260] <hb163c> "SrvOutputData" - WARNING!! You must deal with these files manually
+10/26/06 16:58:20.644,[28260] <hb163c> "SrvOutputData" - *** Output done message '9971' not sent to DRQ; status=0x00012601 (LibDRQ - Invalid request number being passed to the drq_job_complete Library routine .).
+10/26/06 21:08:27.313,[28260] <hb163c> "SrvOutputData" - Sending job 9971 to host 'FTCS'
+10/26/06 21:08:27.313,[28260] <hb163c> "SrvOutputData" - Sending job 9971 to host 'FTCS'
+10/26/06 21:08:27.349,[28260] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 21:08:27.349,[28260] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 21:08:27.362,[28260] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'FTCS'
+10/26/06 21:08:27.391,[28260] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 21:08:27.391,[28260] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mindy/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 21:08:27.403,[28260] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'MINDY'
+10/26/06 21:08:27.434,[28260] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 21:08:27.434,[28260] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/mork/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 21:08:27.446,[28260] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'MORK'
+10/26/06 21:08:27.477,[28260] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 21:08:27.477,[28260] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/tss/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 21:08:27.489,[28260] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'TSS'
+10/26/06 21:08:27.517,[28260] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 21:08:27.518,[28260] <hb163c> "SrvOutputData" - Uploading ASCII file '/usr/tdrs/data/smith/nakano/jobs/9971/COMPLETE_TDP9971_D060412.txt' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/cvrr/drq/COMPLETE_TDP9971_D060412.txt'.
+10/26/06 21:08:27.529,[28260] <hb163c> "SrvOutputData" - File 'COMPLETE_TDP9971_D060412.txt' sent to 'CVRR'
+10/26/06 21:08:27.600,[28260] <hb163c> "SrvOutputData" - Sending to URL 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP9971_D060412.h5'.
+10/26/06 21:08:27.600,[28260] <hb163c> "SrvOutputData" - Uploading BINARY file '/usr/tdrs/data/smith/nakano/jobs/9971/TDP9971_D060412.h5' to 'ftp://smith.dst.ca.boeing.com/pub/tdrs/ftcs/TDP9971_D060412.h5'.
+10/26/06 21:08:28.616,[28260] <hb163c> "SrvOutputData" - WARNING!! Job dir '/usr/tdrs/data/smith/nakano/jobs/9971' not removed; errno=39 (Directory not empty)
+10/26/06 21:08:28.616,[28260] <hb163c> "SrvOutputData" - WARNING!! Fossil file = '.'
+10/26/06 21:08:28.616,[28260] <hb163c> "SrvOutputData" - WARNING!! Fossil file = '..'
+10/26/06 21:08:28.616,[28260] <hb163c> "SrvOutputData" - WARNING!! Fossil file = '9971MD.FTCS'
+10/26/06 21:08:28.616,[28260] <hb163c> "SrvOutputData" - WARNING!! You must deal with these files manually
+10/26/06 21:08:28.635,[28260] <hb163c> "SrvOutputData" - *** Output done message '9971' not sent to DRQ; status=0x00012601 (LibDRQ - Invalid request number being passed to the drq_job_complete Library routine .).
+10/26/06 21:12:56.667,[14645] <hb163c> "SrvOutputData" - Server started: /usr/tdrs/sw/exec/SrvOutputData, debug level=0, noDaemonFlag=0
+10/26/06 21:12:56.884,[14645] <hb163c> "SrvOutputData" - Main thread running as pid 14645
+10/26/06 21:12:56.884,[14645] <hb163c> "SrvOutputData" - *** Becoming a TCP server called 'OUTPUTDATA'
+10/26/06 21:12:56.888,[14645] <hb163c> "SrvOutputData" - OUTPUTDATA TCP server (pid=14645) listening on socket 4

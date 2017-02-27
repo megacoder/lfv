@@ -1,0 +1,19 @@
+#!/bin/zsh
+# vim: ts=8 sw=8
+ME=$(basename $0)
+PREFIX=$(dirname $0)
+USAGE="usage: ${ME} [-d] [-m] [-p] [-s] [-t] [-u] [file...]"
+
+FIELDS=
+while getopts :dmpstu c
+do
+	case "${c}" in
+	d | m | p | s | t | u )	FIELDS="${FIELDS}${c}";;
+	* ) echo "${USAGE}" >&2; exit 1;;
+	esac
+done
+if [ "${FIELDS}" = "" ]; then
+	FIELDS="tm"
+fi
+shift $( expr ${OPTIND} - 1 )
+exec awk -v fields="${FIELDS}" -f ${PREFIX}/${ME}.awk "$@"
